@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style type="text/css">
+body {
+	margin: 0;
+	background: url;
+}
+p {
+	color: ;
+	font-size: 20px;
+	font-family: Roboto;
+	margin: 30px;
+}
+h1 {
+	color: ;
+	font-family: calibri;
+	font-size: 50px;
+}
+h2 {
+	color: ;
+	font-family: calibri;
+	font-size: 50px;
+}
+h3 {
+	color: ;
+	font-family: calibri;
+	font-size: 50px;
+}
+div {
+	font-size: 35px;
+	font-family: ;
+}
+a {
+	color: #172CAF;
+	text-decoration:none
+}
+#container {
+	margin: auto;
+	width: 60%;
+}
+#header {
+	height: 50px;
+	background-color: ;
+	position: relative;
+}
+#leftArrow, #rightArrow {
+	width: 20%;
+	height: auto;
+
+}
+#left {
+	position: absolute;
+	left: 20px;
+	top: 15px;
+}
+#right {
+	position: absolute;
+	left: 89%;
+	top: 15px;
+}
