@@ -1,0 +1,17 @@
+.img-box{
+	column-count: 4; /*количество колонок*/
+	column-gap: 3px; /*асстояние между колонками*/
+	max-width: 1300px;
+	width: 80%;
+	margin: auto;	/*Отступы слева исправа, отсчитываемые автомвтически*/
+}
+
+.image{
+	max-width: 100%;
+	display: block;	/*Тип отображения блочный*/
+}
+.img-link{
+	display: block;
+}
+.image-link + .image-link{
+	margin: 3px 0;		/*Отступы между двумя блоками .img-link*/

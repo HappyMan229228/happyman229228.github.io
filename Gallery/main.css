@@ -1,0 +1,17 @@
+.img-box {
+	column-count:4;
+	column-gap: 3px;
+	max-width: 1200px;
+	width: 80%;
+	margin: auto;
+}
+.image {
+	max-width: 100%;
+	display: block;
+}
+.img-link {
+	display: block;
+}
+.img-link  + .img-link{
+	margin: 3px 0;
+}
