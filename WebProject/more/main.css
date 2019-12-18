@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, header {
+	height: 100%;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+.block {
+	margin: auto;
+	width: 900px;
+	height: 2000px;
+	background-color: #00897b;
+}
+
+.icon {
+	display: block;
+	margin: auto;
+	height: 90px;
+	width: 80px;
+	transition: 0.3s ease-in;
+}
+
+.h1 {
+	font-size: 5rem;
+	letter-spacing: 1px;
+}
+
+.p {
+	margin: 30px;
+	font-size: 20px;
+}
