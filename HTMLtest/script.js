@@ -1,16 +1,15 @@
 function getName() {
 	let name = prompt("Введите свое имя...");
+	if (name == "Илья") {
+		alert ("Вы провалили тест.Вы набрали 0 баллов");
+		alert (name + ", вы набрали " + score + "/" + questions.length + " баллов.");
+	}
 
 	if (name == "" || name == null) {
 		name = "Ученик";
 	}
-		if (name == "Илья") {
-	}
-	alert (name + ",Вы провалили тест.вы набрали " + score + "/" + questions.length + " баллов.");
-
 	alert(name + ", нажми ОК чтобы начать тест.");
 	return name;
-
 }
 
 function test() {
@@ -26,8 +25,8 @@ function test() {
 	 "Значения justify-content, при котором все элементы выравниваются по относительно осевой линии?",
 	 "Что такое элемент datalist в HTML5?",
 	 "Какой элемент используется для проверки url?",
-	 "Какой элемент отображает поле для ввода чисел?"
-	 "Что такое output в HTML5?",
+	 "Какой элемент отображает поле для ввода чисел?",
+	 "Что такое output в НTML5?",
 	 "Что такое SVG в HTML5"];
 	const answers =["HTML-зык гипертекстовой разметки(HyperText Markup Language)",
 	"Doctype-это определение типа документа(Document Type Definition(DTD)",
